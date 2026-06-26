@@ -11,7 +11,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/B.Tech-Cyber%20Forensic%20%26%20Information%20Security-7C3AED?style=for-the-badge&logo=mortarboard&logoColor=white" />
   &nbsp;
-  <img src="https://img.shields.io/badge/CGPA-8.3%2B%20%7C%20Dr.%20MGR%20University-6D28D9?style=for-the-badge&logo=academia&logoColor=white" />
+  <img src="https://img.shields.io/badge/Academic%20Excellence-Dean%27s%20List%20%7C%20Dr.%20MGR%20University-6D28D9?style=for-the-badge&logo=academia&logoColor=white" />
   &nbsp;
   <img src="https://img.shields.io/badge/Expected%20Graduation-June%202026-4C1D95?style=for-the-badge&logo=googlecalendar&logoColor=white" />
 </p>
@@ -25,10 +25,6 @@
   &nbsp;
   <a href="https://www.linkedin.com/in/naresh-kumar0302">
     <img src="https://img.shields.io/badge/LinkedIn-naresh--kumar0302-6D28D9?style=flat-square&logo=linkedin&logoColor=white" />
-  </a>
-  &nbsp;
-  <a href="mailto:narinaresh0302@gmail.com">
-    <img src="https://img.shields.io/badge/Email-narinaresh0302%40gmail.com-5B21B6?style=flat-square&logo=gmail&logoColor=white" />
   </a>
   &nbsp;
   <a href="https://github.com/narinaresh">
@@ -55,9 +51,9 @@ class CybersecurityEngineer:
         self.role         = "Cybersecurity Enthusiast | Digital Forensics | Programmer"
         self.university   = "Dr. M.G.R. Educational and Research Institute"
         self.degree       = "B.Tech — Cyber Forensic and Information Security"
-        self.cgpa         = "8.3+"
+        self.academic     = "Top Performer | Dept. of Cyber Forensic & Information Security"
         self.languages    = ["C", "C++", "Python", "PHP", "SQL", "HTML", "Bash",
-                             "Assembly (x86/x64 — actively learning)"]
+                             "Assembly (x86/x64 — can read & write; sharpening further)"]
         self.domains      = ["Penetration Testing", "VAPT", "Exploitation",
                              "Post-Exploitation", "Digital Forensics",
                              "Vulnerability Scanning", "Socket Programming"]
@@ -77,7 +73,7 @@ class CybersecurityEngineer:
                 "Bug Bounty Programs", "CTF Team Collaborations"]
 ```
 
-I am a cybersecurity student specializing in **offensive hacking**, **digital forensics**, and **secure programming** at Dr. M.G.R. Educational and Research Institute, maintaining a CGPA above 8.3. My technical foundation spans penetration testing and VAPT, combined with hands-on forensics experience using industry tools like Volatility, Autopsy, FTK, and Magnet AXIOM. I write tools in **C/C++** and **Python**, automate security workflows with **Bash**, conduct web application attacks through **Burp Suite** and **SQLmap**, and am actively deepening my understanding of **x86/x64 Assembly** for binary-level analysis. My CTF track record — 17th of 556 teams nationally and 245th internationally — reflects a competitive and methodical attacker mindset.
+I am a cybersecurity student specializing in **offensive hacking**, **digital forensics**, and **secure programming** at Dr. M.G.R. Educational and Research Institute, consistently ranked among the top performers in my department. My technical foundation spans penetration testing and VAPT, combined with hands-on forensics experience using industry tools like Volatility, Autopsy, FTK, and Magnet AXIOM. I write tools in **C/C++** and **Python**, automate security workflows with **Bash**, conduct web application attacks through **Burp Suite** and **SQLmap**, and am actively deepening my understanding of **x86/x64 Assembly** for binary-level analysis. My CTF track record — 17th of 556 teams nationally and 245th internationally — reflects a competitive and methodical attacker mindset.
 
 <br>
 
@@ -101,7 +97,7 @@ I am a cybersecurity student specializing in **offensive hacking**, **digital fo
 <p align="center">
   <img src="https://img.shields.io/badge/SQL-Database%20%26%20Injection%20Research-7C3AED?style=for-the-badge&logo=mysql&logoColor=white" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Assembly%20(x86%2Fx64)-Actively%20Learning-6D28D9?style=for-the-badge&logo=assemblyscript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Assembly%20(x86%2Fx64)-Reading%20%26%20Writing-6D28D9?style=for-the-badge&logo=assemblyscript&logoColor=white" />
 </p>
 
 <p align="center">
@@ -175,12 +171,33 @@ I am a cybersecurity student specializing in **offensive hacking**, **digital fo
 | **Vulnerability Scanning** | ⬛⬛⬛⬜⬜ Intermediate | Nessus-driven asset assessment and CVE triage workflows |
 | **Password & Hash Analysis** | ⬛⬛⬛⬜⬜ Intermediate | Hashcat-based cracking, rainbow tables, credential stuffing research |
 | **CTF Competitions** | ⬛⬛⬛⬛⬜ Advanced | Forensics, web, pwn, reverse, crypto — national & international placements |
-| **Assembly / Binary Analysis** | ⬛⬛⬜⬜⬜ Developing | x86/x64 assembly reading; actively deepening via NPTEL coursework |
+| **Assembly / Binary Analysis** | ⬛⬛⬛⬜⬜ Intermediate | x86/x64 assembly reading & writing; deepening low-level exploit understanding |
 | **Wireless Security** | ⬛⬛⬜⬜⬜ Developing | WPA2 attack methodology, network traffic interception concepts |
 
 ---
 
 ## 🚀 Featured Projects
+
+<details>
+<summary><b>⬛ WAFFLE — Lightweight Web Application Firewall</b></summary>
+<br>
+
+WAFFLE is a lightweight, standalone Web Application Firewall built from scratch, designed to sit in front of web applications and inspect, filter, and block malicious HTTP traffic in real time. The project covers core WAF functionality including pattern-based rule matching, request sanitization, and attack signature detection — all implemented without relying on existing WAF frameworks.
+
+| Attribute | Details |
+|-----------|---------|
+| **Stack** | C, Python, HTTP parsing, regex rule engine, LAMP stack |
+| **Scale** | Single-host reverse proxy mode; designed for local and lab deployments |
+| **Performance** | Low-latency inline inspection with configurable rule severity levels |
+| **Security** | Detects SQLi, XSS, path traversal, command injection, and malformed headers |
+| **Impact** | Demonstrates deep understanding of both attack vectors and defensive engineering at the protocol level |
+| **Repository** | [github.com/narinaresh/waffle](https://github.com/narinaresh/waffle) |
+
+WAFFLE was built with one principle: you cannot defend what you do not understand at the packet level. Rather than configuring an off-the-shelf WAF, this project implements the rule engine and HTTP inspection pipeline from the ground up. Each detection signature was written by studying real-world attack payloads — SQLi bypass strings, XSS polyglots, directory traversal chains — and encoding them as first-class detection rules. The result is a tool that reflects both the attacker's perspective and the defender's responsibility.
+
+</details>
+
+---
 
 <details>
 <summary><b>🔴 ARP Spoof Detector — C-Based MITM Detection Tool</b></summary>
@@ -331,7 +348,7 @@ Completed a structured cyber forensics certification through Crypto Eagle Forens
 | 🔵 **Certified Penetration Tester** | Industry credential earned at RedTeam Hacker Academy |
 | 🟤 **Cyber Forensics Certified** | Practical certification via Crypto Eagle Forensic |
 | ⬛ **NPTEL — C Programming & Assembly Language** | Completed formal coursework in low-level systems programming |
-| 🌐 **CGPA 8.3+** | Consistent academic excellence in B.Tech Cyber Forensic & Information Security |
+| 🌐 **Academic Excellence** | Consistently ranked among top performers in B.Tech Cyber Forensic & Information Security |
 
 </div>
 
@@ -467,10 +484,6 @@ current_focus:
 ## 🤝 Connect
 
 <p align="center">
-  <a href="mailto:narinaresh0302@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-narinaresh0302%40gmail.com-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  &nbsp;
   <a href="https://www.linkedin.com/in/naresh-kumar0302">
     <img src="https://img.shields.io/badge/LinkedIn-naresh--kumar0302-6D28D9?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
