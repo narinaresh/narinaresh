@@ -343,7 +343,7 @@ Completed a structured cyber forensics certification through Crypto Eagle Forens
 
 | 🎖 Recognition | Details |
 |---|---|
-| 💠 **Yukthi CTF - Secured 2nd Place in Prelimes and Got 14th at Finals. CTF was Conducted by SNA and Tamil Nadu Police
+| 💠 **Yukthi CTF - 2nd** | Secured 2nd Place in Prelimes and Got 14th at Finals. CTF was Conducted by SNA and Tamil Nadu Police  |
 | 🔴 **Jamal College CTF — 17th / 556 Teams** | Top 3% nationally; demonstrated offensive security problem-solving under pressure |
 | 🟣 **Snyk Fetch the Flag CTF — 245th Internationally** | Ranked 245th of 5,900+ players across 1,213 global teams |
 | 🔵 **Certified Penetration Tester** | Industry credential earned at RedTeam Hacker Academy |
